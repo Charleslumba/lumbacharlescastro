@@ -29,7 +29,7 @@
                         </div>
                         <div class="row">
                             <div class="col-md-12 mt-3">
-                                <input type="submit" class="btn btn-success" value="Register">
+                                <input type="submit" class="btn btn-secondary" value="Register">
                             </div>
                         </div>
                     </form>
