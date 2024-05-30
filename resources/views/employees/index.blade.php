@@ -11,29 +11,30 @@
                         @csrf
                         <div class="row">
                             <div class="col-md-6">
-                                <label>Employee First Name</label>
+                                <label>Employee-First Name</label>
                                 <input type="text" class="form-control" name="first_name" required>
                             </div>
                             <div class="col-md-6">
-                                <label>Employee Last Name</label>
+                                <label>Employee-Last Name</label>
                                 <input type="text" class="form-control" name="last_name" required>
                             </div>
                             <div class="col-md-6">
-                                <label>Employee DOB</label>
+                                <label>Employee-DOB</label>
                                 <input type="date" class="form-control" name="dob" required>
                             </div>
                             <div class="col-md-6">
-                                <label>Phone</label>
+                                <label>Phone Number</label>
                                 <input type="text" class="form-control" name="phone" required>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-12 mt-3">
-                                <input type="submit" class="btn btn-info" value="Register">
+                                <input type="submit" class="btn btn-success" value="Register">
                             </div>
                         </div>
                     </form>
                 </div>
+                
                 <table class="table mt-5">
                     <thead>
                       <tr>
@@ -55,7 +56,7 @@
                             <td scope="col">{{ $employee->phone }}</td>
                             <td scope="col">
                             <a href="{{ route('employees.edit', $employee->id) }}">
-                                    <button class="btn btn-primary btn-sm">
+                                    <button class="btn btn-info btn-sm">
                                         <i class="fa fa-pencil-square-o" aria-hidden="true"></i> Edit
                                     </button>
                                 </a>
