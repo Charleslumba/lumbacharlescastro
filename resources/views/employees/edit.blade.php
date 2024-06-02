@@ -30,7 +30,7 @@
                         </div>
                         <div class="row">
                             <div class="col-md-12 mt-3">
-                                <input type="submit" class="btn btn-primary" value="Update">
+                                <input type="submit" class="btn btn-secondary bg-red" value="Update">
                             </div>
                         </div>
                     </form>
