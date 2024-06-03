@@ -29,7 +29,7 @@
                         </div>
                         <div class="row">
                             <div class="col-md-12 mt-3">
-                                <input type="submit" class="btn btn-primary"  value="Register">
+                                <input type="submit" class="btn btn-custom bg-red"  value="Register">
                             </div>
                         </div>
                     </form>
@@ -63,7 +63,7 @@
                                 <form action="{{ route('employees.destroy', $employee->id) }}" method="POST" style="display:inline">
                                     @csrf
                                     @method('DELETE')
-                                    <button type="submit" class="btn btn-warning btn-sm">Delete</button>
+                                    <button type="submit" class="btn btn-danger btn-sm">Delete</button>
                                 </form>
                             </td>
                         </tr>
