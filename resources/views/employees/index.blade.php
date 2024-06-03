@@ -29,7 +29,7 @@
                         </div>
                         <div class="row">
                             <div class="col-md-12 mt-3">
-                                <input type="submit" class="btn btn-custom bg-blue"  value="Register">
+                                <input type="submit" class="btn btn-custom bg-yellow"  value="Register">
                             </div>
                         </div>
                     </form>
@@ -56,14 +56,14 @@
                             <td scope="col">{{ $employee->phone }}</td>
                             <td scope="col">
                             <a href="{{ route('employees.edit', $employee->id) }}">
-                                    <button class="btn btn-info btn-sm bg-yellow">
+                                    <button class="btn btn-info btn-sm bg-pink">
                                         <i class="fa fa-pencil-square-o" aria-hidden="true"></i> Edit
                                     </button>
                                 </a>
                                 <form action="{{ route('employees.destroy', $employee->id) }}" method="POST" style="display:inline">
                                     @csrf
                                     @method('DELETE')
-                                    <button type="submit" class="btn btn-warning btn-sm bg-green">Delete</button>
+                                    <button type="submit" class="btn btn-warning btn-sm bg-red">Delete</button>
                                 </form>
                             </td>
                         </tr>
