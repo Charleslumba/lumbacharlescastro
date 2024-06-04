@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="container">
-        <h3 class="text-center mt-5">Employee Management</h3>
+        <h3 class="text-center mt-5">Employee Managements</h3>
         <div class="row justify-content-center">
             <div class="col-md-8">
                 <div class="form-area">
