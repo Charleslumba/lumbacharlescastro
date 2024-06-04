@@ -35,7 +35,7 @@
                             </div>
                         </div>
                         <div class="text-center">
-                            <button type="submit" class="btn btn-custom bg-yellow">Register</button>
+                            <button type="submit" class="btn btn-custom bg-gray">Register</button>
                         </div>
                     </form>
                 </div>
@@ -60,13 +60,13 @@
                             <td>{{ $employee->dob }}</td>
                             <td>{{ $employee->phone }}</td>
                             <td>
-                                <a href="{{ route('employees.edit', $employee->id) }}" class="btn btn-info btn-sm">
+                                <a href="{{ route('employees.edit', $employee->id) }}" class="btn btn-info bg-black btn-sm">
                                     <i class="fa fa-pencil-square-o" aria-hidden="true"></i> Edit
                                 </a>
                                 <form action="{{ route('employees.destroy', $employee->id) }}" method="POST" style="display:inline">
                                     @csrf
                                     @method('DELETE')
-                                    <button type="submit" class="btn btn-danger btn-sm">
+                                    <button type="submit" class="btn btn-danger bg-pink btn-sm">
                                         <i class="" aria-hidden="true"></i> Delete
                                     </button>
                                 </form>
