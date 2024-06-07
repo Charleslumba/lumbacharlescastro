@@ -6,7 +6,7 @@
             <div class="col-md-10">
                 <!-- Card for Employee Management Header -->
                 <div class="card mt-5">
-                    <div class="card-header text-center">
+                    <div class="card-header text-center bg-blue">
                         <h3>Employee Management</h3>
                     </div>
                 </div>
@@ -78,7 +78,7 @@
                                     <td>{{ $employee->dob }}</td>
                                     <td>{{ $employee->phone }}</td>
                                     <td>
-                                        <a href="{{ route('employees.edit', $employee->id) }}" class="btn btn-info bg-blue btn-sm">
+                                        <a href="{{ route('employees.edit', $employee->id) }}" class="btn btn-info bg-green btn-sm">
                                             <i class="fa fa-pencil-square-o" aria-hidden="true"></i> Edit
                                         </a>
                                         <form action="{{ route('employees.destroy', $employee->id) }}" method="POST" style="display:inline">
