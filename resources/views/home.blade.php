@@ -18,7 +18,7 @@
             <!-- small box -->
             <div class="small-box bg-info">
               <div class="inner">
-                <h3>1250</h3>
+                <h3>5,000</h3>
 
                 <p>Employees</p>
               </div>
@@ -33,7 +33,7 @@
             <!-- small box -->
             <div class="small-box bg-success">
               <div class="inner">
-                <h3>7</h3>
+                <h3>20</h3>
 
                 <p>Department</p>
               </div>
@@ -48,7 +48,7 @@
             <!-- small box -->
             <div class="small-box bg-warning">
               <div class="inner">
-                <h3>5</h3>
+                <h3>10</h3>
 
                 <p>Divisions</p>
               </div>
@@ -61,7 +61,7 @@
           <!-- ./col -->
           <div class="col-lg-3 col-6">
             <!-- small box -->
-            <div class="small-box bg-danger">
+            <div class="small-box bg-pink">
               <div class="inner">
                 <h3>244</h3>
 
@@ -76,7 +76,7 @@
           </div>
           <div class="col-lg-3 col-6">
             <!-- small box -->
-            <div class="small-box bg-danger">
+            <div class="small-box bg-black">
               <div class="inner">
                 <h3>80</h3>
 
