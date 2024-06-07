@@ -46,7 +46,7 @@
                                 </div>
                             </div>
                             <div class="">
-                                <button type="submit" class="btn btn-custom bg-blue">Register</button>
+                                <center><button type="submit" class="btn btn-custom bg-gray ">Register</button></center>
                             </div>
                         </form>
                     </div>
@@ -54,7 +54,7 @@
 
                 <!-- Table Section -->
                 <div class="card mt-4">
-                    <div class="card-header">
+                    <div class="card-header bg-blue">
                         <h4>Employee List</h4>
                     </div>
                     <div class="card-body">
@@ -85,7 +85,7 @@
                                             @csrf
                                             @method('DELETE')
                                             <button type="submit" class="btn btn-danger bg-red btn-sm">
-                                                <i class="" aria-hidden="true"></i> Delete
+                                                <i class="fi fa-trash can" aria-hidden="true"></i> Delete
                                             </button>
                                         </form>
                                     </td>

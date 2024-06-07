@@ -36,18 +36,10 @@
                     <i class="nav-icon fas fa-circle nav-icon"></i>
                     <p>
                         System Management
-                        <i class="fas fa-angle-left right"></i>
+                       
                     </p>
                 </a>
-                <ul class="nav nav-treeview" style="display: none;">
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">
-                            <i class="far fa-circle nav-icon"></i>
-                            <p>Child menu</p>
-                        </a>
-                    </li>
-                    
-                </ul>
+               
             </li>
             <li class="nav-item">
                 <a href="{{ route('about') }}" class="nav-link">
