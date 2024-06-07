@@ -12,7 +12,7 @@
                 </div>
 
                 <!-- Form Section -->
-                <div class="card mt-4">
+                <div class="card mt-6">
                     <div class="card-header">
                         <h4>Register Employee</h4>
                     </div>
@@ -34,7 +34,7 @@
                                 </div>
                                 <div class="col-md-6 mb-3">
                                     <div class="form-group">
-                                        <label for="dob">Employee DOB</label>
+                                        <label for="dob">Employee Date of Birth</label>
                                         <input type="date" class="form-control" id="dob" name="dob" required>
                                     </div>
                                 </div>
@@ -53,7 +53,7 @@
                 </div>
 
                 <!-- Table Section -->
-                <div class="card mt-4">
+                <div class="card mt-6">
                     <div class="card-header bg-blue">
                         <h4>Employee List</h4>
                     </div>
@@ -85,7 +85,7 @@
                                             @csrf
                                             @method('DELETE')
                                             <button type="submit" class="btn btn-danger bg-red btn-sm">
-                                                <i class="fi fa-trash can" aria-hidden="true"></i> Delete
+                                                <i class="fa fa-trash can" aria-hidden="true"></i> Delete
                                             </button>
                                         </form>
                                     </td>
